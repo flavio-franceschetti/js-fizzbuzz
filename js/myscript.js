@@ -8,7 +8,14 @@
 
 //creo un ciclo che mi stampa i numeri da 0 a 100 in console
 for (let i = 0; i <= 100; i++) {
-  console.log(i);
+  //creo la condizione che se il numero è multiplo di 3 viene stampato "fizz"
   if (i % 3 === 0) {
+    console.log("fizz");
+    //creo la condizione che se il numero è multiplo di 5 viene stampato "buzz"
+  } else if (i % 5 === 0) {
+    console.log("buzz");
+    // altrimenti viene stampato il numero normale
+  } else {
+    console.log(i);
   }
 }
